@@ -1,0 +1,167 @@
+@import "../../BaseStyles.scss";
+
+// div{
+//    // background: #F6F7F9;
+// .payment-container{
+//     width: 1420px;
+//     margin-left: auto;
+//     margin-right: auto;
+//     margin-top: 60px;
+//     display: flex;
+//     gap: 40px;
+//     //height: 500px;
+//     padding: 30px;
+//     font-family: 'Plus Jakarta Sans', sans-serif;
+//     // .left{
+//     //     h2{
+//     //         font-size: $BType20;
+//     //         color: $SecDarkDefault;
+//     //     }
+//     //     span{
+//     //         font-size: $MType14;
+//     //         color: $SecLight300;
+
+//     //     }
+//     //     .billing-info{
+//     //         background: $PrimaryLight;
+//     //         .steps{
+//     //             margin-left: 520px;
+//     //         }
+
+//     //       .info{
+//     //         background: $PrimaryLight;
+//     //         display: flex;
+//     //         flex-wrap: wrap;
+//     //         justify-content: center;
+//     //         align-items: center;
+//     //         gap: 10px;
+//     //         margin-top: 20px;
+//     //         label{
+//     //             margin-right: 19px;
+//     //         }
+
+//     //         input{
+//     //             margin-right: 70px;
+//     //             padding: 15px;
+//     //             border: none;
+//     //             border-radius: 10px;
+//     //             background: #F6F7F9;
+//     //         }
+//     //       }
+
+//     //     }
+//     //     .rental-info{}
+//     //     .payment-method{}
+//     //     .confirmation{}
+//     // }
+
+//     .left {
+//         display: flex;
+//         flex-direction: column;
+//         gap: 40px;
+
+//         .billing-info,
+//         .rental-info,
+//         .payment-method,
+//         .confirmation {
+//           background-color: #f6f7f9;
+//           padding: 20px;
+//           border-radius: 10px;
+
+//           h2 {
+//             font-size: 24px;
+//             margin-bottom: 10px;
+//           }
+
+//           span {
+//             display: block;
+//             color: #333;
+//             margin-bottom: 10px;
+//           }
+
+//           .steps {
+//             font-weight: bold;
+//             color: #555;
+//           }
+
+//           .info,
+//           .info-main {
+//             display: flex;
+//             flex-direction: column;
+//             gap: 20px;
+
+//             label {
+//               display: flex;
+//               align-items: center;
+//             }
+
+//             input[type="text"],
+//             input[type="radio"],
+//             input[type="checkbox"] {
+//               margin-right: 10px;
+//             }
+
+//             input[type="text"] {
+//               width: 300px;
+//               padding: 8px;
+//               border: 1px solid #ccc;
+//               border-radius: 5px;
+//             }
+
+//             input[type="radio"],
+//             input[type="checkbox"] {
+//               align-self: flex-start;
+//             }
+//           }
+
+//           button {
+//             padding: 10px 20px;
+//             background-color: #007bff;
+//             color: #fff;
+//             border: none;
+//             border-radius: 5px;
+//             cursor: pointer;
+//             transition: background-color 0.3s;
+
+//             &:hover {
+//               background-color: #0056b3;
+//             }
+//           }
+//         }
+//       }
+
+//     .right{}
+// }
+// }
+
+.payment {
+  background: #f6f7f9;
+
+  .payment-container {
+    width: 1420px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: flex;
+    gap: 40px;
+    //height: 500px;
+    padding: 30px;
+    font-family: "Plus Jakarta Sans", sans-serif;
+
+    .left {
+      .billing-info {
+        background: $PrimaryLight;
+        padding: 30px;
+        border-radius: 10px;
+        .section-heading {
+        }
+        .info {
+
+            label{
+                display: block;
+            }
+        }
+      }
+    }
+  }
+}

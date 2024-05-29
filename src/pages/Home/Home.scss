@@ -1,0 +1,278 @@
+@import "../../BaseStyles.scss";
+.home {
+  background: #f6f7f9;
+  // height: 100vh;
+  .main {
+    width: 1420px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    display: flex;
+    gap: 40px;
+    height: 500px;
+    padding: 30px;
+    .left {
+      padding: 20px;
+      flex: 1;
+      border-radius: 10px;
+      //   background: $InfoDarkDefault;
+      background: linear-gradient(
+        -12deg,
+        $PrimaryLight300,
+        $PrimaryDark900,
+        $PrimaryDark
+      );
+      h2 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: $SType32;
+        margin-top: 30px;
+        color: $PrimaryLight;
+      }
+      p {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: $MType16;
+        margin-top: 30px;
+        color: $PrimaryLight;
+      }
+      .primary-btn {
+        @extend primary-btn;
+        margin-top: 30px;
+      }
+      img {
+        width: 85%;
+        margin-top: 60px;
+        margin-left: 20px;
+      }
+    }
+    .right {
+      flex: 1;
+      padding: 20px;
+      border-radius: 10px;
+      background: linear-gradient(
+        12deg,
+        $PrimaryLight300,
+        $PrimaryDark900,
+        $PrimaryDark
+      );
+      h2 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: $SType32;
+        margin-top: 30px;
+        color: $PrimaryLight;
+      }
+      p {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: $MType16;
+        margin-top: 30px;
+        color: $PrimaryLight;
+      }
+      .information-btn {
+        @extend info-btn;
+        margin-top: 30px;
+      }
+      img {
+        width: 85%;
+        margin-top: 50px;
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .info-main {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 1420px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 30px;
+    .pickup {
+      flex: 1;
+      height: 132px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: $PrimaryLight;
+      border-radius: 10px;
+      h2 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: $SType16;
+        color: $SecDarkDefault;
+        margin-right: 40px;
+        margin-left: 5px;
+      }
+      input {
+        accent-color: $PrimaryDark;
+      }
+      .location {
+        padding: 20px;
+        h3 {
+          font-family: "Plus Jakarta Sans", sans-serif;
+          font-size: $BType16;
+          color: $SecDarkDefault;
+          margin-bottom: 10px;
+        }
+        span {
+          font-family: "Plus Jakarta Sans", sans-serif;
+          font-size: $MType12;
+          color: $SecLight300;
+          margin-right: 5px;
+          cursor: pointer;
+        }
+        img {
+          cursor: pointer;
+        }
+      }
+      .date {
+        padding: 20px;
+        h3 {
+          font-family: "Plus Jakarta Sans", sans-serif;
+          font-size: $BType16;
+          color: $SecDarkDefault;
+          margin-bottom: 10px;
+        }
+        span {
+          font-family: "Plus Jakarta Sans", sans-serif;
+          font-size: $MType12;
+          color: $SecLight300;
+          margin-right: 5px;
+          cursor: pointer;
+        }
+        img {
+          cursor: pointer;
+        }
+      }
+      .time {
+        padding: 20px;
+        h3 {
+          font-family: "Plus Jakarta Sans", sans-serif;
+          font-size: $BType16;
+          color: $SecDarkDefault;
+          margin-bottom: 10px;
+        }
+        span {
+          font-family: "Plus Jakarta Sans", sans-serif;
+          font-size: $MType12;
+          color: $SecLight300;
+          margin-right: 5px;
+          cursor: pointer;
+        }
+        img {
+          cursor: pointer;
+        }
+      }
+    }
+    .dropoff {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background: $PrimaryLight;
+      border-radius: 10px;
+      h2 {
+        font-family: "Plus Jakarta Sans", sans-serif;
+        font-size: $SType16;
+        color: $SecDarkDefault;
+        margin-right: 40px;
+        margin-left: 5px;
+      }
+      input {
+        accent-color: $PrimaryDark;
+      }
+      .location {
+        padding: 20px;
+        h3 {
+          font-family: "Plus Jakarta Sans", sans-serif;
+          font-size: $BType16;
+          color: $SecDarkDefault;
+          margin-bottom: 10px;
+        }
+        span {
+          font-family: "Plus Jakarta Sans", sans-serif;
+          font-size: $MType12;
+          color: $SecLight300;
+          margin-right: 5px;
+          cursor: pointer;
+        }
+        img {
+          cursor: pointer;
+        }
+      }
+      .date {
+        padding: 20px;
+        h3 {
+          font-family: "Plus Jakarta Sans", sans-serif;
+          font-size: $BType16;
+          color: $SecDarkDefault;
+          margin-bottom: 10px;
+        }
+        span {
+          font-family: "Plus Jakarta Sans", sans-serif;
+          font-size: $MType12;
+          color: $SecLight300;
+          margin-right: 5px;
+          cursor: pointer;
+        }
+        img {
+          cursor: pointer;
+        }
+      }
+      .time {
+        padding: 20px;
+        h3 {
+          font-family: "Plus Jakarta Sans", sans-serif;
+          font-size: $BType16;
+          color: $SecDarkDefault;
+          margin-bottom: 10px;
+        }
+        span {
+          font-family: "Plus Jakarta Sans", sans-serif;
+          font-size: $MType12;
+          color: $SecLight300;
+          margin-right: 5px;
+          cursor: pointer;
+        }
+        img {
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .recommend {
+    width: 1420px;
+    margin: auto;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    h3 {
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: $SType16;
+      color: $SecLight300;
+    }
+    h4 {
+      font-family: "Plus Jakarta Sans", sans-serif;
+      font-size: $SType16;
+      color: $PrimaryDark;
+    }
+  }
+
+  .parent-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .cardd {
+      width: calc(
+        (100% - 150px) / 5
+      );
+      margin: 20px;
+    }
+  }
+
+  .showmore {
+    @extend show-more;
+    margin-left: 900px;
+    cursor: pointer;
+    margin-bottom: 50px;
+  }
+}

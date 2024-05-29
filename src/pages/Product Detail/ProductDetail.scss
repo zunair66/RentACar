@@ -1,0 +1,144 @@
+@import "../../BaseStyles.scss";
+
+.pDetail {
+  background: #f6f7f9;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  .main {
+    //background: rosybrown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .left {
+      //    flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 500px;
+      height: 400px;
+      background: linear-gradient(
+        -12deg,
+        $PrimaryLight300,
+        $PrimaryDark900,
+        $PrimaryDark
+      );
+      border-radius: 10px;
+      margin: 50px 0 50px 0px;
+
+      img {
+        width: 80%;
+      }
+    }
+
+    .right {
+      //  flex: 1;
+      background: $PrimaryLight;
+      width: 500px;
+      height: 400px;
+      margin: 50px;
+      padding: 20px;
+      border-radius: 10px;
+      h1 {
+        display: inline;
+        font-size: $BType32;
+        color: $SecDarkDefault;
+      }
+      .like {
+        margin-left: 240px;
+      }
+
+      .rating {
+        margin-top: 5px;
+      }
+      .desc {
+        margin-top: 20px;
+        font-size: $RType20;
+        color: $SecLight400;
+      }
+
+      .car-detail {
+        margin-top: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 10px;
+
+        p {
+          font-size: $RType20;
+          color: $SecLight300;
+        }
+        span {
+          margin-right: 40px;
+          font-size: $SType20;
+          color: $SecLight400;
+        }
+      }
+
+      .price {
+        display: inline;
+        margin-right: 270px;
+      }
+
+      button {
+        margin-top: 30px;
+        @extend primary-btn;
+      }
+    }
+  }
+
+  .reviews {
+    width: 900px;
+    height: 400px;
+    background: $PrimaryLight;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    h2 {
+      font-size: $SType20;
+      padding: 30px;
+      margin-left: 20px;
+      span {
+        background: $PrimaryDark;
+        padding: 5px 15px;
+        color: $PrimaryLight;
+        border-radius: 10px;
+        margin: 5px;
+      }
+    }
+
+    .reviewBy {
+      margin: 50px;
+      .profile {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        h4{
+          font-size: $BType20;
+          color: $SecDarkDefault;
+        }
+        span{
+          font-size: $MType14;
+          color: $SecLight300;
+        }
+      }
+
+
+      .date{
+        margin-left: 47px;
+        font-size: $MType14;
+        color: $SecLight300;
+      }
+      
+      .rating{
+        display: inline;
+        margin-left: 570px;
+      }
+
+      p{
+        margin-top: 20px;
+        font-size: $RType14;
+        color: $SecLight400;
+        margin-left: 47px;
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+// .category {
+//   background: #f6f7f9;
+//   .parent-card {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     .cat-card {
+//       width: calc((100% - 150px) / 5);
+//       margin: 20px;
+//     }
+//   }
+// }
+
+
+
+
+.category {
+  background: #f6f7f9;
+  .category-content {
+    display: flex;
+    justify-content: space-between;
+  //  padding: 10px;
+    .filters {
+      width: 300px;
+    }
+    .cards {
+      flex: 1;
+    }
+  }
+  .parent-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    .cat-card {
+      width: calc((100% - 150px) / 5);
+      margin: 20px;
+    }
+  }
+}

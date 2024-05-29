@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// COLORS
+
+// => Primary Colors:
+
+// Dark Version
+$PrimaryDark900: #0a196f;
+$PrimaryDark800: #102587;
+$PrimaryDark700: #1a37a7;
+$PrimaryDark600: #264bc8;
+$PrimaryDark: #3563e9;
+
+// Light Version
+$PrimaryLight400: #658df1;
+$PrimaryLight300: #85a8f8;
+$PrimaryLight200: #aec8fc;
+$PrimaryLight100: #d6e4fd;
+$PrimaryLight: #ffffff;
+
+// => Success
+
+// Dark Version
+$SuccessDark900: #3b6506;
+$SuccessDark800: #4c7a0b;
+$SuccessDark700: #659711;
+$SuccessDark600: #7fb519;
+$SuccessDefault: #9cd323;
+
+// Light Version
+$SuccessLight400: #bce455;
+$SuccessLight300: #d3f178;
+$SuccessLight200: #e8faa6;
+$SuccessLight100: #f5fcd2;
+
+// => Errors
+
+// Dark Version
+$ErrorDark900: #7a0619;
+$ErrorDark800: #930b16;
+$ErrorDark700: #b71112;
+$ErrorDark600: #db2719;
+$ErrorDark500: #ff4423;
+
+// Light Version
+$ErrorLight400: #ff7f59;
+$ErrorLight300: #ffa37a;
+$ErrorLight200: #ffc8a6;
+$ErrorLight100: #ffe7d3;
+
+// => Warning
+
+// Dark Version
+$WarnDark900: #7a4d0b;
+$WarnDark800: #936312;
+$WarnDark700: #b7821d;
+$WarnDark600: #dba32a;
+$WarnDark500: #ffc73a;
+
+// Light Version
+$WarnLight400: #ffd96b;
+$WarnLight300: #ffe488;
+$WarnLight200: #ffefb0;
+$WarnLight100: #fff8d7;
+
+// => Information
+
+// Dark Version
+$InfoDark900: #102e7a;
+$InfoDark800: #1a4393;
+$InfoDark700: #2a60b7;
+$InfoDark600: #3d81db;
+$InfoDarkDefault: #54a6ff;
+
+// Light Version
+$InfoLight400: #7ec2ff;
+$InfoLight300: #98d3ff;
+$InfoLight200: #bae5ff;
+$InfoLight100: #dcf3ff;
+
+// => Secondary
+
+// Dark Version
+$SecDark900: #040815;
+$SecDark800: #080c19;
+$SecDark700: #0d121f;
+$SecDark600: #131825;
+$SecDarkDefault: #1a202c;
+
+// Light Version
+$SecLight400: #596780;
+$SecLight300: #90a3bf;
+$SecLight200: #c3d4e9;
+$SecLight100: #e0e9f4;
+
+// Text Styles
+
+// => Regular
+$RType12: 0.75em;
+$RType14: 0.875em;
+$RType16: 1em;
+$RType18: 1.125em;
+$RType20: 1.25em;
+$RType24: 1.5em;
+$RType32: 2em;
+$RType36: 2.25em;
+$RType40: 2.5em;
+$RType72: 4.5em;
+
+// => Medium
+$MType12: 0.75em;
+$MType14: 0.875em;
+$MType16: 1em;
+$MType18: 1.125em;
+$MType20: 1.25em;
+$MType24: 1.5em;
+$MType32: 2em;
+$MType36: 2.25em;
+$MType40: 2.5em;
+$MType72: 4.5em;
+
+// => Semi Bold
+$SType12: 0.75em;
+$SType14: 0.875em;
+$SType16: 1em;
+$SType18: 1.125em;
+$SType20: 1.25em;
+$SType24: 1.5em;
+$SType32: 2em;
+$SType36: 2.25em;
+$SType40: 2.5em;
+$SType72: 4.5em;
+
+// => Bold
+$BType12: 0.75em;
+$BType14: 0.875em;
+$BType16: 1em;
+$BType18: 1.125em;
+$BType20: 1.25em;
+$BType24: 1.5em;
+$BType32: 2em;
+$BType36: 2.25em;
+$BType40: 2.5em;
+$BType72: 4.5em;
+
+// Buttons for Web
+btn-specs {
+  background: $PrimaryDark;
+  border: none;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: $SType16;
+  font-weight: 600;
+  color: $PrimaryLight;
+  border-radius: 4px;
+}
+
+primary-btn {
+  @extend btn-specs;
+  width: 120px;
+  height: 44px;
+}
+
+info-btn {
+  background: $InfoDarkDefault;
+  width: 120px;
+  height: 44px;
+  border: none;
+  border-radius: 4px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: $SType16;
+  font-weight: 600;
+  color: $PrimaryLight;
+}
+
+product-card-btn {
+  @extend btn-specs;
+  width: 116px;
+  height: 44px;
+}
+
+show-more {
+  @extend btn-specs;
+  width: 156px;
+  height: 44px;
+}
+
+payment-btn {
+  @extend btn-specs;
+  width: 140px;
+  height: 56px;
+  border-radius: 10px;
+}
+
+// Buttons for Responsive design
+
+primary-btn-Res {
+  @extend btn-specs;
+  width: 120px;
+  height: 44px;
+}
+
+info-btn-Res {
+  background: $InfoDarkDefault;
+  width: 120px;
+  height: 44px;
+  border: none;
+  border-radius: 4px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: $SType16;
+  font-weight: 600;
+  color: $PrimaryLight;
+}
+
+product-card-btn-Res {
+  @extend btn-specs;
+  width: 100px;
+  height: 36px;
+}
+
+show-more-btn-Res {
+  @extend btn-specs;
+  width: 120px;
+  height: 36px;
+}
+
+payment-btn-Res {
+  @extend btn-specs;
+  width: 100px;
+  height: 36px;
+  border-radius: 10px;
+}
+
+.btn {
+  @extend primary-btn;
+}
+
+.p-btn {
+  @extend payment-btn;
+}
+
+.container {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+// Mobile first approach
+$small_mobile: 320px;
+$medium_mobile: 375px;
+$large_mobile: 430px;
+$tablet: 768px;
+$laptop: 1024px;
+$large_laptop: 1440px;
+
+@media (max-width: $large_laptop) {
+  .container {
+    max-width: $laptop;
+  }
+}
+@media (max-width: $laptop) {
+  .container {
+    max-width: $tablet;
+  }
+}
+@media (max-width: $tablet) {
+  .container {
+    max-width: $large_mobile;
+  }
+}
+@media (max-width: $large_mobile) {
+  .container {
+    max-width: $medium_mobile;
+  }
+}
+@media (max-width: $medium_mobile) {
+  .container {
+    max-width: $small_mobile;
+  }
+}
+@media (max-width: $small_mobile) {
+  .container {
+    width: 100%;
+  }
+}
+
+// MIXINS
+@mixin large_laptop {
+  @media (max-width: $large_laptop) {
+    @content;
+  }
+}
+@mixin laptop {
+  @media (max-width: $laptop) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (max-width: $tablet) {
+    @content;
+  }
+}
+@mixin large_mobile {
+  @media (max-width: $large_mobile) {
+    @content;
+  }
+}
+@mixin medium_mobile {
+  @media (max-width: $medium_mobile) {
+    @content;
+  }
+}
+@mixin small_mobile {
+  @media (max-width: $small_mobile) {
+    @content;
+  }
+}

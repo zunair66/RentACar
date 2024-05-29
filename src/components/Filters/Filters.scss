@@ -1,0 +1,32 @@
+@import "../../BaseStyles.scss";
+.filters {
+  background: $PrimaryLight;
+  overflow: hidden;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  .main-container {
+    margin: 50px;
+    h3 {
+      font-size: $SType12;
+      color: $SecLight300;
+      margin-bottom: 20px;
+      margin-top: 50px;
+    }
+
+    .type-container,
+    .capacity-container,
+    .price-container {
+      input {
+        vertical-align: middle;
+        margin-right: 5px;
+      }
+      label {
+        // background: red;
+        display: block;
+        margin-bottom: 10px;
+        font-size: $SType16;
+        color: $SecLight400;
+        // margin-left: 20px;
+      }
+    }
+  }
+}

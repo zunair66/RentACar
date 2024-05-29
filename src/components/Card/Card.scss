@@ -1,0 +1,101 @@
+@import "../../BaseStyles.scss";
+
+.card {
+  width: 1420px;
+  margin-left: auto;
+  margin-right: auto;
+//   margin-top: 30px;
+  padding: 30px;
+  .card-parent {
+    width: 304px;
+    height: 388px;
+    // margin-bottom: 50px;
+    overflow: hidden;
+    border-radius: 10px;
+    background: $PrimaryLight;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    h2 {
+      font-size: $BType20;
+      color: $SecDarkDefault;
+      margin-left: 10px;
+      margin-top: 24px;
+      display: inline;
+    }
+    .favorite {
+      margin-left: 130px;
+      margin-top: 24px;
+      cursor: pointer;
+    }
+    .sport {
+      font-size: $BType14;
+      color: $SecLight300;
+      margin-left: 10px;
+      margin-top: 5px;
+      display: block;
+    }
+    .car {
+      width: 80%;
+      margin-top: 50px;
+      margin-left: 20px;
+    }
+    .details {
+      display: flex;
+      justify-content: space-evenly;
+      margin-top: 30px;
+      .gas {
+        display: flex;
+        align-items: center;
+        img {
+          margin-right: 5px;
+        }
+        .fuel {
+          font-size: $BType14;
+          color: $SecLight300;
+        }
+      }
+      .man-auto {
+        display: flex;
+        align-items: center;
+        img {
+          margin-right: 5px;
+        }
+        .manual {
+          font-size: $BType14;
+          color: $SecLight300;
+        }
+      }
+      .people-info {
+        display: flex;
+        align-items: center;
+        img {
+          margin-right: 5px;
+        }
+        .people {
+          font-size: $BType14;
+          color: $SecLight300;
+        }
+      }
+    }
+    .proceed {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      margin-top: 30px;
+
+      h2 {
+        color: $SecDarkDefault;
+        font-size: $BType20;
+        margin-right: 10px;
+
+        .day {
+          font-size: $BType14;
+          color: $SecLight300;
+        }
+      }
+      button {
+        @extend product-card-btn;
+        cursor: pointer;
+      }
+    }
+  }
+}
